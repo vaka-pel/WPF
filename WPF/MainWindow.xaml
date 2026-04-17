@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Introdution to WPF"  Width="800" Height="450" FontSize="64">
 	<Grid>
-		<Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="335,209,0,0" VerticalAlignment="Top" FontSize="24" Click="btnStart_Click" Width="107"/>
-
+		<!--<Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="335,209,0,0" VerticalAlignment="Top" FontSize="24" Click="btnStart_Click" Width="107"/>-->
+		<Button Click="BtnStart_Click" Content="Кнопка" />
 	</Grid>
 </Window>
