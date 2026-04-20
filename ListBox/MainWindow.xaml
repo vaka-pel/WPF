@@ -1,0 +1,37 @@
+﻿<Window x:Class="ListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300" ResizeMode="CanMinimize">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="32"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		
+		<TextBox	Name="txtInput" Grid.Row="0" Grid.Column="0"
+					HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+					/>
+		<ListBox Name="listBox" Grid.Row="1"
+				 Grid.ColumnSpan="2"
+				 />
+		<Grid Grid.Row="0" Grid.Column="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<Button Click="Button_Click" Content="ADD" Grid.Column="0"/>
+			<Button Click="Button_Click" Content="DEL" Grid.Column="1"/>
+			<Button Click="Button_Click" Content="CLR" Grid.Column="2"/>
+			
+		</Grid>
+	</Grid>
+</Window>

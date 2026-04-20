@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{B73A3276-11F8-4978-9C11-1B80ED406555}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{18DEEDD3-7FE6-49FF-9B44-EBF69CCDAE88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B73A3276-11F8-4978-9C11-1B80ED406555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B73A3276-11F8-4978-9C11-1B80ED406555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B73A3276-11F8-4978-9C11-1B80ED406555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DEEDD3-7FE6-49FF-9B44-EBF69CCDAE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DEEDD3-7FE6-49FF-9B44-EBF69CCDAE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DEEDD3-7FE6-49FF-9B44-EBF69CCDAE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DEEDD3-7FE6-49FF-9B44-EBF69CCDAE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
